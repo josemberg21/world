@@ -1,0 +1,28 @@
+body {
+    background-color: #000;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-family: Arial;
+}
+
+#myCanvas {
+    background-color: #2a5;
+}
+
+button, .file-input-label {
+    display: inline-block;
+    background-color: #fff;
+    font-size: 20px;
+    padding: 5px 7px 7px 5px;
+    border: none;
+    border-radius: 5px;
+    text-shadow: 1px 1px #000;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    display: none;
+}
